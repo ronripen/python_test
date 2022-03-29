@@ -27,7 +27,7 @@ def tar18(num1, num2, num3):
 
 def tar149(num):
     if num > 0:
-        return sum([(i**2)for i in range(num)])
+        return sum([(i**3)for i in range(num)])
     return 0
 
 
