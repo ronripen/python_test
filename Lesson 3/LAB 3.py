@@ -36,4 +36,4 @@ while con == 'y':
             factorial()
         case _:
             print('please enter a value between 1-3')
-    input('\ndo you wish to continue? y/n\n')
+    con = input('\ndo you wish to continue? y/n\n')
